@@ -16,10 +16,14 @@ body {
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
-
+.nav-link {
+    padding: .1rem 1rem;
+}
 
 .widget {
-    background-color: rgba(254,254,254,.9);
+    background-color: rgba(254,254,254,0);
+    padding: 0px 0px 0px;
+    margin-bottom: 0px;
  }
 
 .wall-item-content-wrapper {
@@ -33,6 +37,20 @@ a, .fakelink {
 .bg-dark, #menu_logo, .widget h3, .bg-primary , .wall-item-title, .wall-item-title.h3 a {
     background-color: #4267a8 !important;
     color: #fff !important;
+}
+
+
+#hubzilla {
+    font-size: 2rem !important;
+}
+
+#menu_logo .fa.fa-hubzilla {
+    font-size: 2rem;
+}
+
+#menu_logo, .widget h3 {
+    padding: 2px;
+    background-color: rgba(66,103,168,.3) !important;
 }
 
 .section-title-wrapper {
